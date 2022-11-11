@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: #99582a;
+}
+form{
+    border: 1px solid white;
+    width: 60%;
+    border-radius: 10px;
+}
+input{
+    font-size: 15px;
+}
+.c-ped{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    text-align: start;
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+td{
+    padding: 2%;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.btn-ped{
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: #432818;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+body>.c-ped>.btn-ped>i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+input{
+    font-family: 'Roboto Slab', serif;
+}

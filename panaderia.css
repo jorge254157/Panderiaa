@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: #99582a;
+}
+.imagenes{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.imagenes>img{
+    height: 10rem;
+    width: 12rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+.box-r{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    background-color: #432818;
+}
+body>h2{
+    margin-top: 3%;
+}
+hr{
+    color: white;
+    width: 400px;
+}
+.img-circular {
+    border-radius: 50%;
+}
+body>.c-body{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    background-color: transparent;
+}
+body>.contenido-img{
+    width: 100%;
+}
+.resena{
+    color: white;
+    width: 250px;
+}
+.vertical{ 
+    border-left: 2px solid white; 
+    height: 300px;
+    width: 1px;
+}
+.r-box{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    background-color: transparent;
+}
+.img-r{
+    width: 90px;
+    height: 100px;
+}
+.p-r{
+    font-size: 12px;
+}
+.stars{
+    color: yellow;
+}
+.btn-r{
+    border: none;
+    background-color: #432818;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8rem;
+    margin-top: 2%;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+.btn-r:hover{
+    font-size: 1rem;
+}

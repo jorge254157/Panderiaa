@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos especiales</title>
+    <link rel="stylesheet" href="pedidosespeciales.css">
+    <link rel="stylesheet" href="general.css">
+    <script src="https://kit.fontawesome.com/9c30171cb4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body onload="loadfn()">
+    <nav>
+        <div class="btn">
+            <button><a href="panaderia.html">Inicio</a></button>
+            <button><a href="productos.html">Productos</a></button>
+            <button><a href="pedidosespeciales.html">Pedidos especiales</a></button>
+            <button><i class="fa-solid fa-bag-shopping"></i></button>
+            <button><i class="fa-solid fa-user"></i></button>
+        </div>
+    </nav>
+    <img class="img2" src="img/LOGO.PNG">
+    <header>
+        <h1>Realiza tu pedido</h1>
+    </header>
+    <h2>Datos para el pedido</h2>
+    <div class="c-ped">
+        <form>
+            <table>
+                <tr>
+                    <td>Descripción del producto que desea comprar</td>
+                    <td><textarea cols="40" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Detalles sobre alérgenos que considere necesarios</td>
+                    <td><textarea cols="40" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Número de productos que quiera adquirir</td>
+                    <td><input type="number" value="1" max="50" min="1"></td>
+                </tr>
+                <tr>
+                    <td>Fecha de entrega</td>
+                    <td><input type="date"/></td>
+                </tr>
+                <tr>
+                    <td>Horario de entrega</td>
+                    <td><input type="time"/></td>
+                </tr>
+            </table>
+        </form>
+        <button class="btn-ped">Agregar al carrito<i class="produto__icon fas fa-cart-plus"></i></button>
+    </div>
+    <footer>
+        <div class="c-footer">
+            <div class="box-f">
+                <p class="p-f">Información</p>
+                <p class="p-f">¿Quiénes somos?</p>
+                <p class="p-f2"><a href="politica.html">Política de privacidad</a></p>
+                <p class="p-f">Política de cookies</p>
+                <p class="p-f">Condiciones legales</p>
+            </div>
+            <div class="vertical2"></div>
+            <div class="box-f">
+                <p class="p-f">Haz tu pedido por teléfono</p>
+                <h2>662765451</h2>
+                <h3>Horario</h3>
+                <p class="p-f">Lunes a Sábado de 8:00 a 18:00</p>
+            </div>
+            <div class="vertical2"></div>
+            <div class="box-f">
+                <p class="p-f">Síguenos en redes sociales</p>
+                <p class="p-f"><i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

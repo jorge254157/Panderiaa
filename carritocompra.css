@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: #99582a;
+    width: 100%;
+}
+.body-car{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+.box-car{
+    margin-top: 0;
+    margin-left: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid white;
+    margin-right: 100px;
+    padding: 30px;
+}
+.box-car2{
+    margin-top: 0;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid white;
+    padding: 10px;
+}
+.img-car{
+    align-items: center;
+    width: 150px;
+    height: 155px;
+}
+h4{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.p-car{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 0;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+input{
+    font-family: 'Roboto Slab', serif;
+}
+.texto{
+    display: flex;
+}
+.ico{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+input{
+    width: 7rem;
+}
+.txt{
+    width: 100%;
+}
+button{
+    width: 2rem;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    transition-property: all;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+.parrafos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+}
+.p-car-f{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.p-car-l{
+    margin-right: 160px;
+}
+.p-car-li{
+    margin: 0;
+}
+.h4-p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.parrafos2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+}
+.p-car-l2{
+    margin-right: 86px;
+}
+.btn-c{
+    margin-top: 1%;
+    border: none;
+    background-color: #c25c21;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+.textos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex end;
+}
+.parrafos-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-c:hover{
+    font-size: 1rem;
+}

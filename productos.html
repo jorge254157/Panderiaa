@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="general.css">
+    <script src="https://kit.fontawesome.com/9c30171cb4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <script>
+        const abrir_panel = () => {
+        const panel = document.querySelectorAll('.panel')[0].style;
+        panel.display = panel.display === 'none' ? 'block' : 'none';
+        };
+    </script>
+</head>
+<body onload="loadfn()">
+    <nav>
+        <div class="btn">
+            <button><a href="panaderia.html">Inicio</a></button>
+            <button><a href="productos.html">Productos</a></button>
+            <button><a href="pedidosespeciales.html">Pedidos especiales</a></button>
+            <button class="carrito" onclick="abrir_panel()"><i class="fa-solid fa-bag-shopping"></i></button>
+            <div class="panel">
+                <h1>Mi carrito</h1>
+                <hr>
+                <div class="box-c">
+                    <img src="img/croissant.jpg" class="img-c">
+                    <div class="txt">
+                        <h2>Croissant</h2>
+                        <p class="p-c">Cantidad: 7</p>
+                        <p class="p-c">1,30€</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-c">
+                    <img src="img/ensaimada.jpg" class="img-c">
+                    <div class="txt">
+                        <h2>Ensaimada</h2>
+                        <p class="p-c">Cantidad: 1</p>
+                        <p class="p-c">2,70€</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-c">
+                    <img src="img/brioches.jpg" class="img-c">
+                    <div class="txt">
+                        <h2>Brioches</h2>
+                        <p class="p-c">Cantidad: 3</p>
+                        <p class="p-c">1,45€</p>
+                    </div>
+                </div>
+                <hr>
+                <h1>Subtotal------------16,15€</h1>
+                <hr>
+                <a href="carritocompra.html"><button class="btn-c">Tramitar pedido</button></a>
+            </div>
+            <button><i class="fa-solid fa-user"></i></button>
+        </div>
+    </nav>
+    <img class="img2" src="img/LOGO.PNG">
+    <header>
+        <h1>Panadería Pedrín</h1>
+        <h3>*El mejor pan hecho con masa madre*</h3>
+    </header>
+    <h2>PRODUCTOS</h2>
+    <hr>
+    <div class="pr-box">
+        <div class="box-pr">
+            <img src="img/baguette.jpg" class="img-pr">
+            <h3>Pan baguette<br> 0,60€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/pan-centeno.webp" class="img-pr">
+            <h3>Pan de centeno<br> 0,75€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/pan-espelta.jpg" class="img-pr">
+            <h3>Pan de espelta<br> 0,90€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="pr-box">
+        <div class="box-pr">
+            <img src="img/pan-maiz.jpg" class="img-pr">
+            <h3>Pan de maíz<br> 0,88€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/pan-germinado.jpeg" class="img-pr">
+            <h3>Pan germinado<br> 0,95€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/croissant.jpg" class="img-pr">
+            <h3>Croissant<br> 1,30€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="pr-box">
+        <div class="box-pr">
+            <img src="img/chapata.jpg" class="img-pr">
+            <h3>Pan chapata<br> 0,73€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/pan-integral.jpg" class="img-pr">
+            <h3>Pan integral<br> 0,90€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/Hogaza.jpg" class="img-pr">
+            <h3>Hogaza<br> 1,10€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="pr-box">
+        <div class="box-pr">
+            <img src="img/ensaimada.jpg" class="img-pr">
+            <h3>Ensaimada<br> 2,70€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/brioches.jpg" class="img-pr">
+            <h3>Brioches<br> 1,45€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/magdalenas.avif" class="img-pr">
+            <h3>Magdalenas<br> 0,70€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="pr-box">
+        <div class="box-pr">
+            <img src="img/gofre.jpg" class="img-pr">
+            <h3>Gofre<br> 2,50€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/muffins.webp" class="img-pr">
+            <h3>Muffins<br> 0,95€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/tarta.jpg" class="img-pr">
+            <h3>Tarta<br> 14,00€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="pr-box">
+        <div class="box-pr">
+            <img src="img/quesada.jpg" class="img-pr">
+            <h3>Quesada<br>11,60€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/miguelitos.jpg" class="img-pr">
+            <h3>Miguelitos<br> 1,85€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/empanadilla.jpg" class="img-pr">
+            <h3>Empanadilla<br> 3,20€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="pr-box">
+        <div class="box-pr">
+            <img src="img/barquillos.jpg" class="img-pr">
+            <h3>Barquillos<br> 0,40€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/bizcocho.jpg" class="img-pr">
+            <h3>Bizcocho<br> 9,95€</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+        <div class="box-pr">
+            <img src="img/donuts.webp" class="img-pr">
+            <h3>Donuts<br> 1,80€/U</h3>
+            <p class="p-r">"Agua, harina de trigo y levadura."</p>
+            <div class="prod-i">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="c-footer">
+            <div class="box-f">
+                <p class="p-f">Información</p>
+                <p class="p-f">¿Quiénes somos?</p>
+                <p class="p-f2"><a href="politica.html">Política de privacidad</a></p>
+                <p class="p-f">Política de cookies</p>
+                <p class="p-f">Condiciones legales</p>
+            </div>
+            <div class="vertical2"></div>
+            <div class="box-f">
+                <p class="p-f">Haz tu pedido por teléfono</p>
+                <h2>662765451</h2>
+                <h3>Horario</h3>
+                <p class="p-f">Lunes a Sábado de 8:00 a 18:00</p>
+            </div>
+            <div class="vertical2"></div>
+            <div class="box-f">
+                <p class="p-f">Síguenos en redes sociales</p>
+                <p class="p-f"><i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

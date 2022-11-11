@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: #99582a;
+}
+hr{
+    color: white;
+    width: 250px;
+}
+.pr-box{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    background-color: transparent;
+}
+.box-pr{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    background-color: #432818;
+    border: 1px solid white;
+}
+.img-pr{
+    width: 150px;
+    height: 100px;
+}
+.prod-i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body>.pr-box>.box-pr>.prod-i>h3{
+    margin-left: 60px;
+    margin-right: 110px;
+}
+body>.pr-box>.box-pr>h3{
+    margin-left: 45px;
+}
+body>.pr-box>.box-pr>.prod-i>a>i{
+    margin-left: 200px;
+    font-size: 25px;
+}
+body>.pr-box>.box-pr>.prod-i>.stars{
+    color: yellow;
+}
+body>.pr-box>.box-pr>.prod-i>a>i:hover{
+    font-size: 35px;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+.panel {
+    margin-top: 35rem;
+    border: 1px solid white;
+    background-color: #432818;
+    width: 20%;
+    color: white;
+    height: 28rem;
+    position: fixed;
+    right: 0;
+    display: none;
+}
+.carrito {
+    width: 8rem;
+    height: 3rem;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+body>nav>.btn>.panel>hr{
+    width: 99%;
+}
+body>nav>.btn>.panel>.box-c>.img-c{
+    width: 80px;
+    height: 80px;
+}
+body>nav>.btn>.panel>.box-c>.txt{
+   text-align: right;
+   margin-left: 14px;
+   margin-top: -30px;
+}
+.img-c{
+    margin-bottom: 0;
+    width: 100px;
+    height: 100px;
+}
+.box-c{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.p-c{
+    margin: 0;
+    display: block;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.h1-c{
+    display: flexbox;
+}
+
+.btn-c{
+    margin-top: 1%;
+    border: none;
+    background-color: #c25c21;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+.btn-c:hover{
+    font-size: 1rem;
+}
